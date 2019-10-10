@@ -1,5 +1,6 @@
 class Cat
   # code goes here
+  attr_accessor :name
   attr_reader :owner, :mood
 
   @@all = []
@@ -10,6 +11,6 @@ class Cat
     @owner = owner
     @@all << self
   end
-  
+
 
 end
