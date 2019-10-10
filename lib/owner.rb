@@ -4,9 +4,8 @@ class Owner
 
   def initialize(owner,species)
     @owner = owner
-    @species = species
+    @species =
   end
 
 
-end
 end 
