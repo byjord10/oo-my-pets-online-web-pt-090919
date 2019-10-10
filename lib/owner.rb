@@ -6,3 +6,4 @@ class Owner
     @owner = owner
     @species = “human”
   end
+end
