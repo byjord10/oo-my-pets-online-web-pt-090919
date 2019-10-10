@@ -16,7 +16,10 @@ class Owner
 
   def self.all
     @@all
-  end 
+  end
 
+  def self.count
+    self.all.count
+  end 
 
 end
